@@ -40,4 +40,6 @@ The `spatial_downsample.py(SpaDnet)`, `spectral_downsample.py(SpeDnet)`, `spectr
 
 Jiaxin Li, Ke Zheng, Jing Yao, Lianru Gao, Danfeng Hong. Deep unsupervised blind hyperspectral and multispectral data fusion[J]. IEEE Geoscience and Remote Sensing Letters, 2022, 19: 1-5.
 
+### Repo TODOs
+Fix Bug. Thanks for Jiaxin Li
 Other description will be released soon.
