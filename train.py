@@ -44,6 +44,7 @@ if __name__ == '__main__':
     est_hhsi = up_model.Spectral_up_net(train_dataset[0]["hmsi"].unsqueeze(0).to(args.device))
 
     ###save estimated HHSI
+    hrhsi=est_hhsi.data.cpu().float().numpy()[0].transpose(1,2,0)
     save_hhsi(args,est_hhsi)
 
     print(args)
